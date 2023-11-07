@@ -17,7 +17,7 @@ class Routes {
   static Map<String, Widget Function(BuildContext)> appRoutes = {
     splashScreen: (context) => const SplashScreen(),
     login: (context) => Login(),
-    signUp: (context) => const SignUp(),
+    signUp: (context) => SignUp(),
     home: (context) => const Home(),
     preferences: (context) => const AddPreferences(),
   };
